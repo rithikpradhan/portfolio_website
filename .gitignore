@@ -23,6 +23,9 @@
 # misc
 .DS_Store
 *.pem
+scratch/
+.vscode/
+.idea/
 
 # debug
 npm-debug.log*
