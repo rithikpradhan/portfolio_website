@@ -94,8 +94,10 @@ export default function Navbar() {
 
         {/* Right: CTA Button Group */}
         <div className="flex items-center gap-2 sm:gap-3">
-          <div
-            onClick={() => scrollToSection("contact")}
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pradhanrithik62@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group flex items-center gap-1.5 sm:gap-2 cursor-pointer select-none"
           >
             {/* "Get In Touch" Pill */}
@@ -119,7 +121,7 @@ export default function Navbar() {
                 />
               </svg>
             </span>
-          </div>
+          </a>
 
           {/* Mobile Menu Toggle Button */}
           <button
@@ -177,12 +179,15 @@ export default function Navbar() {
           >
             Who Am I
           </button>
-          <button
-            onClick={() => scrollToSection("contact")}
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pradhanrithik62@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMobileMenuOpen(false)}
             className="text-left text-base font-semibold text-[#2563EB] hover:text-blue-700 py-1 cursor-pointer"
           >
             Get In Touch &rarr;
-          </button>
+          </a>
         </div>
       )}
     </header>

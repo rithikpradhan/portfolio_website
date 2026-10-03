@@ -86,7 +86,9 @@ export default function Footer() {
 
           {/* Pill CTA Button: → Get In Touch */}
           <a
-            href="mailto:pradhanrithik62@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pradhanrithik62@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="footer-cta-btn inline-flex items-center gap-2.5 sm:gap-3 bg-[#18181B] hover:bg-[#2563EB] text-white px-6 sm:px-9 py-2.5 sm:py-3.5 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_15px_35px_rgba(37,99,235,0.3)] hover:scale-105 active:scale-95 transition-all duration-300 font-medium text-sm sm:text-base group cursor-pointer"
           >
             {/* Arrow Icon */}
@@ -145,7 +147,9 @@ export default function Footer() {
               Blog
             </a>
             <a
-              href="mailto:pradhanrithik62@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=pradhanrithik62@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#18181B] hover:text-[#2563EB] transition-colors cursor-pointer"
             >
               Contact

@@ -729,14 +729,9 @@ export default function Services() {
 
               {/* Action Button */}
               <a
-                href="#contact"
-                onClick={(e) => {
-                  e.preventDefault();
-                  const target =
-                    document.getElementById("contact") ||
-                    document.getElementById("about");
-                  if (target) target.scrollIntoView({ behavior: "smooth" });
-                }}
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=pradhanrithik62@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group/btn w-fit bg-[#111317] hover:bg-black text-white pl-6 pr-2.5 py-2.5 rounded-full shadow-lg shadow-black/20 flex items-center gap-3.5 transition-all duration-300 hover:scale-105 cursor-pointer select-none"
               >
                 <span className="text-sm font-medium tracking-tight">
@@ -781,27 +776,17 @@ export default function Services() {
             {/* CTA Button Group: Pill + Arrow Circle matching image */}
             <div className="flex items-center gap-2.5 z-10 select-none">
               <a
-                href="#contact"
-                onClick={(e) => {
-                  e.preventDefault();
-                  const target =
-                    document.getElementById("contact") ||
-                    document.getElementById("about");
-                  if (target) target.scrollIntoView({ behavior: "smooth" });
-                }}
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=pradhanrithik62@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 sm:px-7 py-2.5 sm:py-3 rounded-full bg-[#111317] hover:bg-black text-white text-xs sm:text-sm font-medium tracking-tight shadow-lg shadow-black/20 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer"
               >
                 Get In Touch
               </a>
               <a
-                href="#contact"
-                onClick={(e) => {
-                  e.preventDefault();
-                  const target =
-                    document.getElementById("contact") ||
-                    document.getElementById("about");
-                  if (target) target.scrollIntoView({ behavior: "smooth" });
-                }}
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=pradhanrithik62@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#111317] hover:bg-black text-white flex items-center justify-center shadow-lg shadow-black/20 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer"
                 aria-label="Get in touch arrow"
               >

@@ -118,7 +118,7 @@ export default function About() {
           {/* Tilted Photo Card */}
           <div className="about-portrait-card group relative w-full aspect-[4/3.1] rounded-[22px] sm:rounded-[36px] overflow-hidden bg-[#181A1F] shadow-[0_25px_60px_rgba(0,0,0,0.14)] -rotate-1 sm:-rotate-[2.5deg] border border-black/5 transition-transform duration-500 ease-out hover:rotate-0 hover:scale-[1.02] cursor-pointer">
             <Image
-              src="/about_portrait.jpg"
+              src="/model2.png"
               alt="Elian Ross - Product Designer"
               fill
               priority
